@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cout << "Enter two integers:";
+    cin >> a >> b;
+
+    cout << "sum;" << a + b << "\n";
+    cout << "subtraction;" << a - b << "\n";
+    cout << "multiplication;" << a * b << "\n";
+    if (b != 0)
+        cout << "division;" << a / b << "/n";
+    else
+        cout << "division: cannot divide by zero\n";
+    return 0;
+}
